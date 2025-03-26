@@ -1,10 +1,4 @@
-import React from 'react'
-// this is about section
-// this is about section
-
-
-
-
+import React from 'react';
 function About() {
   return (
     <div>

@@ -1,9 +1,9 @@
-// import About from "./components/About";
+import About from "./components/About";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-// import TextForm from "./components/TextForm";
+import TextForm from "./components/TextForm";
 import React, { useState } from "react";
-// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState("dark");
@@ -33,22 +33,22 @@ function App() {
   };
   return (
     <>
-      {/* <Router> */}
+      <Router>
         <Navbar title="MoviesDen" mode={mode} toggleMode={() => toggleMode()} />
-        <Home mode={mode} alert={alert}></Home>
-        {/* <TextForm showAlert={showAlert}></TextForm> */}
-        {/* <Routes>
+        <Routes>
           <Route
-           exact path="/"
+            exact
+            path="/"
             element={<Home mode={mode} alert={alert}></Home>}
           ></Route>
           <Route exact path="/about" element={<About></About>}></Route>
           <Route
-           exact path="/textform"
+            exact
+            path="/textform"
             element={<TextForm showAlert={showAlert}></TextForm>}
           ></Route>
-        </Routes> */}
-      {/* </Router> */}
+        </Routes>
+      </Router>
     </>
   );
 }

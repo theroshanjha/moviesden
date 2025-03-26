@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/moviesden/static/css/main.00aaea8f.css",
+    "main.js": "/moviesden/static/js/main.babdc003.js",
+    "static/js/453.3bc8ae80.chunk.js": "/moviesden/static/js/453.3bc8ae80.chunk.js",
+    "index.html": "/moviesden/index.html",
+    "main.00aaea8f.css.map": "/moviesden/static/css/main.00aaea8f.css.map",
+    "main.babdc003.js.map": "/moviesden/static/js/main.babdc003.js.map",
+    "453.3bc8ae80.chunk.js.map": "/moviesden/static/js/453.3bc8ae80.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00aaea8f.css",
+    "static/js/main.babdc003.js"
+  ]
+}

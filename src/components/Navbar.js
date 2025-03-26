@@ -10,7 +10,7 @@ export default function Navbar(props) {
   return (
     <nav
       className={`navbar navbar-expand-lg navbar -${props.mode} bg-${props.mode}`}
-      // okokoko
+      // okokokodskhbfdihabdhwibhidwvb
     >
       <div className="container-fluid">
         <Link
